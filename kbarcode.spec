@@ -4,12 +4,13 @@ Version:	2.0.4
 Release:	1
 License:	GPL
 Group:		Applications
-URL:		http://www.kbarcode.net/
 Source0:	http://dl.sourceforge.net/kbarcode/%{name}-%{version}.tar.gz
 # Source0-md5:	86f62225995d9c55a0b8b0bf1dd0e403
 Patch0:		kde-common-PLD.patch
+URL:		http://www.kbarcode.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	kdelibs-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
