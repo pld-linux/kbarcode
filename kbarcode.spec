@@ -1,4 +1,5 @@
 Summary:	A barcode and label printing application for KDE
+Summary(pl):	Aplikacja dla KDE do drukowania kodów kreskowych i etykiet
 Name:		kbarcode
 Version:	2.0.4
 Release:	1
@@ -24,6 +25,19 @@ translations in many languages. Even printing more than 10.000 labels
 in one go is no problem for KBarcode. Additionally it is a simply
 xbarcode replacement for the creation of barcodes. All major types of
 barcodes like EAN, UPC, CODE39 and ISBN are supported.
+
+%description -l pl
+KBarcode to aplikacja dla Linuksa i KDE 3 s³u¿±ca do drukowania kodów
+kreskowych i etykiet. Mo¿e byæ u¿ywana do wszystkiego, od prostych
+wizytówek do z³o¿onych etykiet z kilkoma kodami kreskowymi (np.
+opisami artyku³ów). KBarcode zawiera ³atwy w u¿yciu program do
+projektowania etykiet, program konfiguracyjny, wsadowy import etykiet
+(bezpo¶rednio z opisu dostawy), tysi±ce predefiniowanych etykiet,
+narzêdzia do zarz±dzania baz± danych oraz t³umaczenia na wiele
+jêzyków. Wydruk nawet 10000 etykiet naraz nie jest problemem dla
+KBarcode. Ponadto jest to prosty zamiennik xbarcode do tworzenia kodów
+kreskowych. Obs³ugiwane s± wszystkie g³ówne typy kodów kreskowych, jak
+EAN, UPC, CODE39 i ISBN.
 
 %prep
 %setup -q
