@@ -1,5 +1,5 @@
 Summary:	A barcode and label printing application for KDE
-Summary(pl.UTF-8):   Aplikacja dla KDE do drukowania kodów kreskowych i etykiet
+Summary(pl.UTF-8):	Aplikacja dla KDE do drukowania kodów kreskowych i etykiet
 Name:		kbarcode
 Version:	2.0.4
 Release:	1
