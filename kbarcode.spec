@@ -8,6 +8,8 @@ Group:		Applications
 Source0:	http://dl.sourceforge.net/kbarcode/%{name}-%{version}.tar.gz
 # Source0-md5:	86f62225995d9c55a0b8b0bf1dd0e403
 Patch0:		kde-common-PLD.patch
+Patch1:		kde-ac260.patch
+Patch2:		kde-am.patch
 URL:		http://www.kbarcode.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -42,6 +44,8 @@ EAN, UPC, CODE39 i ISBN.
 %prep
 %setup -q
 %patch0 -p1
+%patch1 -p1
+%patch2 -p1
 
 %build
 %{__make} -f admin/Makefile.common cvs
